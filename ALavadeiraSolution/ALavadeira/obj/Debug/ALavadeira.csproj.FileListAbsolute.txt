@@ -1,0 +1,61 @@
+D:\ALavadeiraSolution\ALavadeira\bin\ALavadeira.dll
+D:\ALavadeiraSolution\ALavadeira\bin\ALavadeira.pdb
+D:\ALavadeiraSolution\ALavadeira\bin\Antlr3.Runtime.dll
+D:\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.dll
+D:\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.dll
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\ALavadeiraSolution\ALavadeira\bin\EntityFramework.dll
+D:\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.WebForms.dll
+D:\ALavadeiraSolution\ALavadeira\bin\Microsoft.Web.Infrastructure.dll
+D:\ALavadeiraSolution\ALavadeira\bin\System.Web.Optimization.dll
+D:\ALavadeiraSolution\ALavadeira\bin\System.Web.Providers.dll
+D:\ALavadeiraSolution\ALavadeira\bin\WebGrease.dll
+D:\ALavadeiraSolution\ALavadeira\bin\EntityFramework.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.xml
+D:\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.dll
+D:\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.pdb
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeira.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeira.pdb
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Antlr3.Runtime.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\EntityFramework.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\System.Web.Optimization.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\System.Web.Providers.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\WebGrease.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\EntityFramework.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.pdb
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.csprojResolveAssemblyReference.cache
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.dll
+C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.pdb
