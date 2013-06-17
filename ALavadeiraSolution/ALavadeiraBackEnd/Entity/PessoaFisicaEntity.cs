@@ -46,6 +46,7 @@ namespace ALavadeiraBackEnd.Entity
 
             if (wtbpf != null && wtbpf.HasRows)
             {
+                wtbpf.Read();
                 this.id = Convert.ToInt32(wtbpf["nextcode"]);
                 long i;
                 PessoaFisicaModel pm = new PessoaFisicaModel(this);
@@ -58,10 +59,10 @@ namespace ALavadeiraBackEnd.Entity
     
         }
 
-        public SqlDataReader consultaPesFis(string cn, string nome, string status) {
+        public SqlDataReader consultaPesFis(string cn, string campo, string busca) {
             SqlDataReader wtbpesfis;
             PessoaFisicaModel pm = new PessoaFisicaModel();
-            wtbpesfis = pm.consultaPesFis(cn, nome, status);
+            wtbpesfis = pm.consultaPesFis(cn, campo, busca);
             return wtbpesfis;
         }
 

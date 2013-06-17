@@ -220,6 +220,24 @@ namespace ALavadeira {
         protected global::System.Web.UI.WebControls.TextBox txtfone;
         
         /// <summary>
+        /// txtddd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtddd;
+        
+        /// <summary>
+        /// txtcep control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtcep;
+        
+        /// <summary>
         /// pnlConf control.
         /// </summary>
         /// <remarks>

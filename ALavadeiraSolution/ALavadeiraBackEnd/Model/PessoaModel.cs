@@ -39,16 +39,16 @@ namespace ALavadeiraBackEnd.Model
         }
 
         public long alterandoPessoa(){
-            if (pm.bairro != "" && pm.cep != "" && pm.ddd != 0 && pm.endereco != "" && pm.status != "" && pm.numero != "" && pm.telefone != "")
-            {
+            //if (pm.bairro != "" && pm.cep != "" && pm.ddd != 0 && pm.endereco != "" && pm.status != "" && pm.numero != "" && pm.telefone != "")
+            //{
                 long i;
                 PessoaData pd = new PessoaData(pm);
                 i = pd.alterandoPessoa();
-                return i;
-            }
-            else {
-                return 0;
-            }
+            //    return i;
+            //}
+            //else {
+            //    return 0;
+            //}
         }
 
     }

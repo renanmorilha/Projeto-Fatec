@@ -26,18 +26,19 @@ namespace ALavadeiraBackEnd.Data
 
         public long gravaPessoaFisica() {
             DB objDB = new DB(pf.conn);
+            SqlDataReader wtbtemp;
             string sql = "";
             long i;
-            sql = "INSERT INTO Pes_Fisica values (" + pf.id + ", '" + pf.nome + "', '" + pf.cpf + "', '" + pf.datanasc + "', '" + pf.rg + "')";
-            i = objDB.executeQuery(CommandType.Text, sql);
-            return i;
+                sql = "INSERT INTO Pes_Fisica values (" + pf.id + ", '" + pf.nome + "', '" + pf.cpf + "', " + pf.datanasc.ToShortDateString().ToString().Replace("/","-") + ", '" + pf.rg + "')";
+                i = objDB.executeQuery(CommandType.Text, sql);
+                return i;
         }
 
-        public SqlDataReader consultaPessoaFisica(string cn, string nome, string status) {
+        public SqlDataReader consultaPessoaFisica(string cn, string campo, string busca) {
             SqlDataReader wtbpesfis;
             DB objDB = new DB(cn);
             string sql = "";
-            sql = "SELECT pf.*, p.* FROM Pessoas p INNER JOIN Pes_Fisica pf ON p.id_pes = pf.id_pes where pf.nome like '"+nome+"%' and p.status_pes like '"+status+"%'";
+            sql = "SELECT pf.*, p.* FROM Pessoas p INNER JOIN Pes_Fisica pf ON p.id_pes = pf.id_pes where "+campo+" like '"+busca+"%'";
             wtbpesfis = objDB.executeReader(CommandType.Text,sql);
 
             if (wtbpesfis != null || wtbpesfis.HasRows)

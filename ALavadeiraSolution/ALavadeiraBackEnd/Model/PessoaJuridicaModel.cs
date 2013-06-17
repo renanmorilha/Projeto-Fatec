@@ -36,16 +36,6 @@ namespace ALavadeiraBackEnd.Model
                 return 0;
             }
 
-            if (pj.ie == "" || pj.ie == null)
-            {
-                return 0;
-            }
-
-            if (pj.status == "" || pj.status == null || pj.status.ToLower() != "ativo" || pj.status.ToLower() != "inativo")
-            {
-                return 0;
-            }
-
             if (pj.cnpj == "" || pj.cnpj == null)
             {
                 return 0;
@@ -63,21 +53,21 @@ namespace ALavadeiraBackEnd.Model
 
         }
 
-        public SqlDataReader consultaPesJur(string cn, string nomef, string status)
+        public SqlDataReader consultaPesJur(string cn, string campo, string busca)
         {
-            if (nomef == "")
+            if (campo == "")
             {
                 return null;
             }
 
-            if (status == "")
+            if (busca == "")
             {
                 return null;
             }
 
             SqlDataReader wtbpesjur;
             PessoaJuridicaData pd = new PessoaJuridicaData();
-            wtbpesjur = pd.consultaPessoaJuridica(cn, nomef, status);
+            wtbpesjur = pd.consultaPessoaJuridica(cn, campo, busca);
 
             if (wtbpesjur != null && wtbpesjur.HasRows)
             {

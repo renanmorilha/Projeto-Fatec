@@ -39,11 +39,6 @@ namespace ALavadeiraBackEnd.Model
                 return 0;
             }
 
-            if (pf.status == "" || pf.status == null || pf.status.ToLower() != "ativo" || pf.status.ToLower() != "inativo")
-            {
-                return 0;
-            }
-
             if (pf.cpf == "" || pf.cpf == null)
             {
                 return 0;
@@ -61,19 +56,19 @@ namespace ALavadeiraBackEnd.Model
 
         }
 
-        public SqlDataReader consultaPesFis(string cn, string nome, string status){
-            if (nome == ""){
+        public SqlDataReader consultaPesFis(string cn, string campo, string busca){
+            if (campo == ""){
                 return null;
             }
 
-            if (status == "")
+            if (busca == "")
             {
                 return null;
             }
 
             SqlDataReader wtbpesfis;
             PessoaFisicaData pd = new PessoaFisicaData();
-            wtbpesfis = pd.consultaPessoaFisica(cn, nome, status);
+            wtbpesfis = pd.consultaPessoaFisica(cn, campo, busca);
 
             if (wtbpesfis != null && wtbpesfis.HasRows){
                 return wtbpesfis;
@@ -105,7 +100,7 @@ namespace ALavadeiraBackEnd.Model
                 return 0;
             }
 
-            if (pf.status == "" || pf.status == null || pf.status.ToLower() != "ativo" || pf.status.ToLower() != "inativo")
+            if (pf.status == "" || pf.status == null || pf.status.ToLower() != "Ativo" || pf.status.ToLower() != "Inativo")
             {
                 return 0;
             }

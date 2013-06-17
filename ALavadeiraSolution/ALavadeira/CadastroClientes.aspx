@@ -89,11 +89,11 @@
                 <h3>Dados Pessoais</h3><br />
                 <table>
                     <tr><td class="auto-style2"><b>Endereço:</b></td><td>
-                        <asp:TextBox ID="txtender" runat="server" Width="300px"></asp:TextBox></td></tr>
+                        <asp:TextBox ID="txtender" runat="server" Width="300px" MaxLength="50"></asp:TextBox></td></tr>
                     <tr><td class="auto-style2"><b>Bairro:</b></td><td>
-                        <asp:TextBox ID="txtbair" runat="server" Width="300px"></asp:TextBox></td></tr>
+                        <asp:TextBox ID="txtbair" runat="server" Width="300px" MaxLength="50"></asp:TextBox></td></tr>
                     <tr><td class="auto-style2"><b>Número:</b></td><td>
-                        <asp:TextBox ID="txtNum" runat="server" Width="300px"></asp:TextBox></td></tr>
+                        <asp:TextBox ID="txtNum" runat="server" Width="300px" MaxLength="5"></asp:TextBox></td></tr>
                     <tr><td class="auto-style2"><b>Complemento:</b></td><td>
                         <asp:TextBox ID="txtComp" runat="server" Width="300px"></asp:TextBox></td></tr>
                     <tr><td class="auto-style2"><b>Cidade:</b></td><td>
@@ -101,7 +101,11 @@
                     <tr><td class="auto-style2"><b>UF:</b></td><td>
                         <asp:DropDownList ID="cmbUF" runat="server" Height="19px" Width="198px"></asp:DropDownList></td></tr>
                     <tr><td class="auto-style2"><b>Telefone:</b></td><td>
-                        <asp:TextBox ID="txtfone" runat="server" Width="300px"></asp:TextBox></td></tr>
+                        <asp:TextBox ID="txtfone" runat="server" Width="300px" MaxLength="10"></asp:TextBox></td></tr>
+                    <tr><td class="auto-style2"><b>DDD:</b></td><td>
+                        <asp:TextBox ID="txtddd" runat="server" Width="300px"></asp:TextBox></td></tr>
+                    <tr><td class="auto-style2"><b>CEP:</b></td><td>
+                        <asp:TextBox ID="txtcep" runat="server" Width="300px" MaxLength="10"></asp:TextBox></td></tr>
                 </table>
             </asp:Panel>
 <br />

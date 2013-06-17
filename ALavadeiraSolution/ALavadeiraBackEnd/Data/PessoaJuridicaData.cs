@@ -24,17 +24,19 @@ namespace ALavadeiraBackEnd.Data
 
         public long gravaPessoaJuridica() {
             DB objDB = new DB(pj.conn);
-            string sql = "INSERT INTO Pes_Juridica values ("+pj.id+", '"+pj.cnpj+"', '"+pj.razsoc+"', '"+pj.ie+"', '"+pj.nomefant+"')";
-            long i;
-            i = objDB.executeQuery(CommandType.Text, sql);
-            return i;
+            string sql="";
+
+                sql = "INSERT INTO Pes_Juridica values ("+pj.id+", '"+pj.cnpj+"', '"+pj.razsoc+"', '"+pj.ie+"', '"+pj.nomefant+"')";
+                long i;
+                i = objDB.executeQuery(CommandType.Text, sql);
+                return i;
         }
 
-        public SqlDataReader consultaPessoaJuridica(string cn, string nomef, string status) {
+        public SqlDataReader consultaPessoaJuridica(string cn, string campo, string busca) {
             SqlDataReader wtbpesjur;
             DB objDB = new DB(cn);
             string sql = "";
-            sql = "SELECT pj.*, p.* FROM pessoas p INNER JOIN Pes_Juridica pj ON p.id_pes = pj.id_pes WHERE pj.nome_fant like '"+nomef+"%' and p.status_pes like '"+status+"%' ";
+            sql = "SELECT pj.*, p.* FROM pessoas p INNER JOIN Pes_Juridica pj ON p.id_pes = pj.id_pes WHERE "+campo+" like '"+busca+"%'";
             wtbpesjur = objDB.executeReader(CommandType.Text,sql);
 
             if (wtbpesjur != null || wtbpesjur.HasRows)
