@@ -104,11 +104,6 @@ namespace ALavadeiraBackEnd.Model
                 return 0;
             }
 
-            if (pj.status == "" || pj.status == null || pj.status.ToLower() != "ativo" || pj.status.ToLower() != "inativo")
-            {
-                return 0;
-            }
-
             if (pj.cnpj == "" || pj.cnpj == null)
             {
                 return 0;

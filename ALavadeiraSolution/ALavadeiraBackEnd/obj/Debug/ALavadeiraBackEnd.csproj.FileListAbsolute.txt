@@ -6,3 +6,7 @@ C:\Users\MaqLab\Documents\ALavadeiraSolution\ALavadeiraBackEnd\bin\Debug\ALavade
 C:\Users\MaqLab\Documents\ALavadeiraSolution\ALavadeiraBackEnd\bin\Debug\ALavadeiraBackEnd.pdb
 C:\Users\MaqLab\Documents\ALavadeiraSolution\ALavadeiraBackEnd\obj\Debug\ALavadeiraBackEnd.dll
 C:\Users\MaqLab\Documents\ALavadeiraSolution\ALavadeiraBackEnd\obj\Debug\ALavadeiraBackEnd.pdb
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeiraBackEnd\obj\Debug\ALavadeiraBackEnd.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeiraBackEnd\bin\Debug\ALavadeiraBackEnd.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeiraBackEnd\bin\Debug\ALavadeiraBackEnd.pdb
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeiraBackEnd\obj\Debug\ALavadeiraBackEnd.pdb

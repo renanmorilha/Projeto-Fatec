@@ -40,10 +40,10 @@ namespace ALavadeiraBackEnd.Model
 
         }
 
-        public SqlDataReader consultaPecas(string conn, string nome, double valor) {
+        public SqlDataReader consultaPecas(string conn, string nome) {
             SqlDataReader wtb;
             PecasData pd = new PecasData();
-            wtb = pd.consultaPecas(conn, nome, valor);
+            wtb = pd.consultaPecas(conn, nome);
             return wtb;
         }
 

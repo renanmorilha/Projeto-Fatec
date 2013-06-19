@@ -59,3 +59,35 @@ C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavad
 C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.csprojResolveAssemblyReference.cache
 C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.dll
 C:\Users\Fritadu\Documents\Visual Studio 2012\Projects\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.pdb
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\ALavadeira.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\ALavadeira.pdb
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Antlr3.Runtime.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\EntityFramework.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\System.Web.Optimization.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\System.Web.Providers.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\WebGrease.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\ALavadeiraBackEnd.pdb
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\EntityFramework.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.Core.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.csprojResolveAssemblyReference.cache
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.dll
+C:\Users\MaqLab\Downloads\Projeto-Fatec-master\ALavadeiraSolution\ALavadeira\obj\Debug\ALavadeira.pdb

@@ -24,17 +24,17 @@ namespace ALavadeiraBackEnd.Data
             string sql;
             long i;
             DB objdb = new DB(pe.conn);
-            sql = "INSERT INTO PECAS values('"+pe.nome+"', "+pe.valor+")";
+            sql = "INSERT INTO PECAS values('"+pe.nome+"', "+pe.valor.ToString().Replace(",",".")+")";
             i = objdb.executeQuery(CommandType.Text, sql);
             return i;
         }
 
-        public SqlDataReader consultaPecas(string conn, string nome, double valor) {
+        public SqlDataReader consultaPecas(string conn, string nome) {
             string sql;
             DB objdb = new DB(conn);
             SqlDataReader wtb;
 
-            sql = "SELECT * from PECAS where nome like '%"+nome+"%' and valor = "+valor;
+            sql = "SELECT * from PECAS where descricao like '"+nome+"'";
             wtb = objdb.executeReader(CommandType.Text, sql);
 
             return wtb;

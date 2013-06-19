@@ -100,11 +100,6 @@ namespace ALavadeiraBackEnd.Model
                 return 0;
             }
 
-            if (pf.status == "" || pf.status == null || pf.status.ToLower() != "Ativo" || pf.status.ToLower() != "Inativo")
-            {
-                return 0;
-            }
-
             if (pf.cpf == "" || pf.cpf == null)
             {
                 return 0;

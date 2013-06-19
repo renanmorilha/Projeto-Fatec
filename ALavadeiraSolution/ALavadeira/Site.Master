@@ -96,9 +96,9 @@
                         <asp:MenuItem Text="Cadastro" Value="Cadastro" NavigateUrl="~/CadastroClientes.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Consulta" Value="Consulta" NavigateUrl="~/ConsultaCliente.aspx"></asp:MenuItem>
                     </asp:MenuItem>
-                    <asp:MenuItem Text="Tipos de Peças" Value="Tipos de Peças">
-                        <asp:MenuItem Text="Cadastro" Value="Cadastro"></asp:MenuItem>
-                        <asp:MenuItem Text="Consulta" Value="Consulta"></asp:MenuItem>
+                    <asp:MenuItem Text="Peças" Value="Peças">
+                        <asp:MenuItem Text="Cadastro" Value="Cadastro" NavigateUrl="CadastroPecas.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Consulta" Value="Consulta" NavigateUrl="ConsultaPecas.aspx"></asp:MenuItem>
                     </asp:MenuItem>
                     <asp:MenuItem Text="OS" Value="OS">
                         <asp:MenuItem Text="Consulta" Value="Consulta"></asp:MenuItem>
@@ -116,14 +116,7 @@
     </header>
     
 	<div id="site_content">	
-        <div class="slideshow">
-              <ul class="slideshow">
-                  <li class="show">
-                      <img width="680" height="250" src="images/home_1.jpg" alt="Teste" /></li>
-                  <li>
-                      <img width="680" height="250" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-              </ul>
-          </div>	
+        
 	  <asp:ContentPlaceHolder runat="server" ID="MainContent">
           
           </asp:ContentPlaceHolder>

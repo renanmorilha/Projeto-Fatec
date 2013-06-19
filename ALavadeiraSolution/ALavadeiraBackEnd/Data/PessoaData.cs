@@ -45,7 +45,7 @@ namespace ALavadeiraBackEnd.Data
             wtb = objDB.executeReader(CommandType.Text,sql);
 
             if (wtb.HasRows) {
-                sql = "UPDATE Pessoas set status_pes = '" + pe.status + "', endereco = '" + pe.endereco + "', bairro = '" + pe.bairro + "', numero = '" + pe.numero + "', cep = '" + pe.cep + "', ddd = " + pe.ddd + ", telefone = '" + pe.telefone + "' where id_pes = "+pe.id;
+                sql = "UPDATE Pessoas set status_pes = '" + pe.status + "' where id_pes = "+pe.id;
                 i = objDB.executeQuery(CommandType.Text, sql);
                 return i;
             }else{

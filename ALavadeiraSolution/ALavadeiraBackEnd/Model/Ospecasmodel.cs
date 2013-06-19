@@ -34,7 +34,7 @@ namespace ALavadeiraBackEnd.Model
             //calculando Preço Total
             if (ose.precototal == 0) {
                 int k =0;
-                double precototal=0.0;
+                decimal precototal = 0;
 
                 while (ose.ose.pecas.Count > 0) {
                     precototal = precototal + (ose.ose.pecas[k].qtd * ose.ose.pecas[k].valor);

@@ -12,7 +12,7 @@ namespace ALavadeiraBackEnd.Entity
     public class Ospecasentity
     {
         public OSEntity ose;
-        public double precototal;
+        public decimal precototal;
         public string conn;
 
         public Ospecasentity() { }

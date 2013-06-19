@@ -124,8 +124,10 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="CadastroClientes.aspx" />
     <Content Include="CadastroOS.aspx" />
+    <Content Include="CadastroPecas.aspx" />
     <Content Include="ConsultaCliente.aspx" />
     <Content Include="ConsultaOS.aspx" />
+    <Content Include="ConsultaPecas.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -257,6 +259,13 @@
     <Compile Include="CadastroOS.aspx.designer.cs">
       <DependentUpon>CadastroOS.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CadastroPecas.aspx.cs">
+      <DependentUpon>CadastroPecas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroPecas.aspx.designer.cs">
+      <DependentUpon>CadastroPecas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConsultaCliente.aspx.cs">
       <DependentUpon>ConsultaCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -270,6 +279,13 @@
     </Compile>
     <Compile Include="ConsultaOS.aspx.designer.cs">
       <DependentUpon>ConsultaOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPecas.aspx.cs">
+      <DependentUpon>ConsultaPecas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaPecas.aspx.designer.cs">
+      <DependentUpon>ConsultaPecas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -84,7 +84,7 @@ namespace ALavadeiraBackEnd.Data
             long y;
             y = pf.alterandoPessoa();
             if (y == 1) {
-                sql = "UPDATE Pes_Fisica set nome = '" + pf.nome + "', cpf = '" + pf.cpf + "', data_nasc = '" + pf.datanasc + "', rg = '" + pf.rg + "' where id_pes = '" + pf.id + "'";
+                sql = "UPDATE Pes_Fisica set nome = '" + pf.nome + "', cpf = '" + pf.cpf + "', data_nasc = " + pf.datanasc.ToString("dd/MM/yyyy") + " , rg = '" + pf.rg + "' where id_pes = '" + pf.id + "'";
                 i = objDB.executeQuery(CommandType.Text, sql);
                 return i;
             }else{

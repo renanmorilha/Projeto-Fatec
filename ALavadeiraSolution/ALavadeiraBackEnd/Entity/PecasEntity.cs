@@ -12,23 +12,23 @@ namespace ALavadeiraBackEnd.Entity
     {
 
         public string nome;
-        public double valor;
+        public decimal valor;
         public int id;
         public string conn;
-        public double qtd;
+        public decimal qtd;
 
         public PecasEntity() { 
             
         }
 
-        public PecasEntity(string cn, string n, double v)
+        public PecasEntity(string cn, string n, decimal v)
         {
             conn = cn;
             nome = n;
             valor = v;
         }
 
-        public PecasEntity(string cn, int i, string n, double v)
+        public PecasEntity(string cn, int i, string n, decimal v)
         {
             id = i;
             conn = cn;
@@ -43,10 +43,10 @@ namespace ALavadeiraBackEnd.Entity
             return i;
         }
 
-        public SqlDataReader consultaPecas(string conn, string nome, double valor) {
+        public SqlDataReader consultaPecas(string conn, string nome) {
             SqlDataReader wtb;
             PecasModel pm = new PecasModel();
-            wtb = pm.consultaPecas(conn,nome,valor);
+            wtb = pm.consultaPecas(conn,nome);
             return wtb;
         }
 

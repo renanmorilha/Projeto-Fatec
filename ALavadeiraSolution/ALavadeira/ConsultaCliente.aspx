@@ -20,7 +20,7 @@
     </asp:Panel><br />
     <center><asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
-            <asp:GridView ID="GridView1" runat="server" style="text-align: center" Caption="Clientes" ShowFooter="True" Visible="False" AutoGenerateColumns="False">
+            <asp:GridView ID="GridView1" runat="server" style="text-align: center" Caption="Clientes" ShowFooter="True" Visible="False" AutoGenerateColumns="False" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating">
                 <FooterStyle BackColor="#A6BCFF" />
                 <HeaderStyle BackColor="#A6BCFF" />
                 <RowStyle BackColor="White" BorderColor="#A6BCFF" BorderStyle="Solid" />
@@ -46,33 +46,51 @@
                         <ItemTemplate>
                             <asp:Label ID="lblNome" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Nome") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtNome" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Nome") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="CPF">
                         <ItemTemplate>
                             <asp:Label ID="lblCPF" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.CPF") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtCPF" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.CPF") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="RG">
                         <ItemTemplate>
                             <asp:Label ID="lblRG" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.RG") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtRG" MaxLength="9" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.RG") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="Data Nasc.">
                         <ItemTemplate>
                             <asp:Label ID="lblDataNasc" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.data_nasc") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtDataNasc" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.data_nasc") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="Status">
                         <ItemTemplate>
-                            <asp:DropDownList ID="cmbStatus" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.pes_status") %>'>
+                            <asp:DropDownList ID="cmbStatus" Enabled="false" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.status_pes") %>'>
                                 <asp:ListItem value="Ativo">Ativo</asp:ListItem>
                                 <asp:ListItem value="Inativo">Inativo</asp:ListItem>
                             </asp:DropDownList>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                         <asp:DropDownList ID="cmbStatuse" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.status_pes") %>'>
+                                <asp:ListItem value="Ativo">Ativo</asp:ListItem>
+                                <asp:ListItem value="Inativo">Inativo</asp:ListItem>
+                            </asp:DropDownList>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                 </Columns>
@@ -104,33 +122,51 @@
                         <ItemTemplate>
                             <asp:Label ID="lblNomeFant" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.nome_fant") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtNomeFant" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.nome_fant") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="CNPJ">
                         <ItemTemplate>
                             <asp:Label ID="lblCNPJ" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.CNPJ") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtCNPJ" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.cnpj") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="IE">
                         <ItemTemplate>
                             <asp:Label ID="lblIE" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.IE") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtie" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.ie") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="Razão Social">
                         <ItemTemplate>
                             <asp:Label ID="lblRazSoc" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.razao_social") %>'></asp:Label>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:TextBox ID="txtRazSoc" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.razao_social") %>'></asp:TextBox>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                     <asp:TemplateField HeaderText="Status">
                         <ItemTemplate>
-                            <asp:DropDownList ID="cmbStatus" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.pes_status") %>'>
+                            <asp:DropDownList Enabled="false" ID="cmbStatus" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.pes_status") %>'>
                                 <asp:ListItem value="Ativo">Ativo</asp:ListItem>
                                 <asp:ListItem value="Inativo">Inativo</asp:ListItem>
                             </asp:DropDownList>
                         </ItemTemplate>
+                        <EditItemTemplate>
+                            <asp:DropDownList ID="cmbStatuse" runat="server" SelectedValue='<%# DataBinder.Eval(Container, "DataItem.pes_status") %>'>
+                                <asp:ListItem value="Ativo">Ativo</asp:ListItem>
+                                <asp:ListItem value="Inativo">Inativo</asp:ListItem>
+                            </asp:DropDownList>
+                        </EditItemTemplate>
                     </asp:TemplateField>
 
                 </Columns>

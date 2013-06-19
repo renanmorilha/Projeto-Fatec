@@ -44,7 +44,7 @@ namespace ALavadeiraBackEnd.Model
                 long i;
                 PessoaData pd = new PessoaData(pm);
                 i = pd.alterandoPessoa();
-            //    return i;
+                return i;
             //}
             //else {
             //    return 0;
